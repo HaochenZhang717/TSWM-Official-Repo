@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+results/
+ckpts/
+logs/
+wandb/
+.tmp/
+.gpu_window_cache/
+.probe_val_cache/
+*.pt
+*.npz
+*.parquet
+*.pkl
+_cache/
+cases_cache/

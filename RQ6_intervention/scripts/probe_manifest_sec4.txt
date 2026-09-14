@@ -1,0 +1,36 @@
+greenhouse obs --ladders dose
+greenhouse vae --ladders dose
+greenhouse jepa --ladders dose
+greenhouse decay__gate
+greenhouse decay__film_zero
+greenhouse conv__gate
+greenhouse conv__film_zero
+greenhouse attn__gate
+greenhouse attn__film_zero
+pleiadata obs --ladders dose --batch-size 128
+pleiadata vae --ladders dose --batch-size 128
+pleiadata jepa --ladders dose --batch-size 128
+pleiadata decay__gate --batch-size 128
+pleiadata decay__film_zero --batch-size 128
+pleiadata conv__gate --batch-size 128
+pleiadata conv__film_zero --batch-size 128
+pleiadata attn__gate --batch-size 128
+pleiadata attn__film_zero --batch-size 128
+predist obs --ladders dose --batch-size 128
+predist vae --ladders dose --batch-size 128
+predist jepa --ladders dose --batch-size 128
+predist decay__gate --batch-size 128
+predist decay__film_zero --batch-size 128
+predist conv__gate --batch-size 128
+predist conv__film_zero --batch-size 128
+predist attn__gate --batch-size 128
+predist attn__film_zero --batch-size 128
+wastewater_nutrient obs --ladders dose
+wastewater_nutrient vae --ladders dose
+wastewater_nutrient jepa --ladders dose
+wastewater_nutrient decay__gate
+wastewater_nutrient decay__film_zero
+wastewater_nutrient conv__gate
+wastewater_nutrient conv__film_zero
+wastewater_nutrient attn__gate
+wastewater_nutrient attn__film_zero

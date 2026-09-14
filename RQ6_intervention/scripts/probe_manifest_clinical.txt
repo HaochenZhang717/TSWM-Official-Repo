@@ -1,0 +1,4 @@
+mimic_cardio gate_soft_clinical_rho0p1 --batch-size 128
+vitaldb gate_soft_clinical_rho0p1 --batch-size 128
+mimic_cardio gate --batch-size 128
+vitaldb gate --batch-size 128

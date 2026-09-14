@@ -1,0 +1,30 @@
+vitaldb none --batch-size 128
+vitaldb concat --ladders dose --batch-size 128
+vitaldb res --batch-size 128
+vitaldb res_zero --batch-size 128
+vitaldb film_zero --batch-size 128
+vitaldb xattn --batch-size 128
+vitaldb obs --ladders dose --batch-size 128
+vitaldb vae --ladders dose --batch-size 128
+vitaldb jepa --ladders dose --batch-size 128
+vitaldb decay__gate --batch-size 128
+vitaldb decay__film_zero --batch-size 128
+vitaldb conv__gate --batch-size 128
+vitaldb conv__film_zero --batch-size 128
+vitaldb attn__gate --batch-size 128
+vitaldb attn__film_zero --batch-size 128
+mimic_cardio none --batch-size 128
+mimic_cardio concat --ladders dose --batch-size 128
+mimic_cardio res --batch-size 128
+mimic_cardio res_zero --batch-size 128
+mimic_cardio film_zero --batch-size 128
+mimic_cardio xattn --batch-size 128
+mimic_cardio obs --ladders dose --batch-size 128
+mimic_cardio vae --ladders dose --batch-size 128
+mimic_cardio jepa --ladders dose --batch-size 128
+mimic_cardio decay__gate --batch-size 128
+mimic_cardio decay__film_zero --batch-size 128
+mimic_cardio conv__gate --batch-size 128
+mimic_cardio conv__film_zero --batch-size 128
+mimic_cardio attn__gate --batch-size 128
+mimic_cardio attn__film_zero --batch-size 128

@@ -1,0 +1,11 @@
+torch
+numpy
+pandas
+scikit-learn
+einops
+matplotlib
+openpyxl
+xlrd
+pyarrow
+vitaldb
+wandb

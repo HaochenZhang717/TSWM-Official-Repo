@@ -1,0 +1,56 @@
+greenhouse none
+greenhouse res
+greenhouse res_zero
+greenhouse film_zero
+greenhouse xattn
+greenhouse gate --lambdas 0 0.1 0.3
+greenhouse concat --ladders dose
+pleiadata none --batch-size 128
+pleiadata res --batch-size 128
+pleiadata res_zero --batch-size 128
+pleiadata film_zero --batch-size 128
+pleiadata xattn --batch-size 128
+pleiadata gate --lambdas 0 0.1 0.3 --batch-size 128
+pleiadata concat --ladders dose --batch-size 128
+predist none --batch-size 128
+predist res --batch-size 128
+predist res_zero --batch-size 128
+predist film_zero --batch-size 128
+predist xattn --batch-size 128
+predist gate --lambdas 0 0.1 0.3 --batch-size 128
+predist concat --ladders dose --batch-size 128
+wastewater_nutrient none
+wastewater_nutrient res
+wastewater_nutrient res_zero
+wastewater_nutrient film_zero
+wastewater_nutrient xattn
+wastewater_nutrient gate --lambdas 0 0.1 0.3
+wastewater_nutrient concat --ladders dose
+vitaldb none --batch-size 128
+vitaldb res --batch-size 128
+vitaldb res_zero --batch-size 128
+vitaldb film_zero --batch-size 128
+vitaldb xattn --batch-size 128
+vitaldb gate --lambdas 0 0.1 0.3 --batch-size 128
+vitaldb concat --ladders dose --max-windows 8000 --batch-size 128
+mimic_cardio none --batch-size 128
+mimic_cardio res --batch-size 128
+mimic_cardio res_zero --batch-size 128
+mimic_cardio film_zero --batch-size 128
+mimic_cardio xattn --batch-size 128
+mimic_cardio gate --lambdas 0 0.1 0.3 --batch-size 128
+mimic_cardio concat --ladders dose --batch-size 128
+cgmacros none
+cgmacros res
+cgmacros res_zero
+cgmacros film_zero
+cgmacros xattn
+cgmacros gate --lambdas 0 0.1 0.3
+cgmacros concat --ladders dose
+shanghai_diabetes none
+shanghai_diabetes res
+shanghai_diabetes res_zero
+shanghai_diabetes film_zero
+shanghai_diabetes xattn
+shanghai_diabetes gate --lambdas 0 0.1 0.3
+shanghai_diabetes concat --ladders dose

@@ -1,0 +1,4 @@
+greenhouse gate_soft_rho0p1
+pleiadata gate_soft_rho0p1 --batch-size 128
+predist gate_soft_rho0p1 --batch-size 128
+wastewater_nutrient gate_soft_rho0p1
